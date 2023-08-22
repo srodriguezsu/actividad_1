@@ -2,6 +2,12 @@
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
     public static void main(String[] args) {
-        System.out.println("This is going to be the 5th exercise");
+        float suma = 0f;
+        float x = 20f;
+        suma = suma + x;
+        float y = 40f;
+        x = x +( y * y );
+        suma = suma + x / y;
+        System.out.println("El valor de la suma es: " + suma);
     }
 }
