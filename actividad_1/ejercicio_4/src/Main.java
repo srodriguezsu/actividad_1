@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int edJuan, edAlber, edAna, edMama ;
-        System.out.print("La edad de Juan es: ");
+        System.out.print("Inserte la edad : ");
         edJuan = input.nextInt();
         edAlber = 2 * edJuan / 3;
         edAna = 4 * edJuan / 3;
